@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    background: url(/image/background.jpg) no-repeat center center /cover; 
+    background-repeat: no-repeat;
+    position: relative;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 
+        Helvetica,
+        Arial,
+        sans-serif;
+
+}
+
+
+nav {
+    margin-left: 70px;
+    width: 90%;
+    padding: 30px;
+    height: 50px;
+}
+
+
+ul li {
+
+    margin-right: 90px;
+    display: inline-block;
+}
+
+
+.logo {
+    position: relative;
+}
+
+
+.logo::before,
+.Creat::after {
+    content: "";
+    position: absolute;
+    background-color: #922f4e;
+    border-radius: 50%;
+
+}
+
+
+.logo::before {
+
+    left: -45%;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.section {
+
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 100px;
+
+}
+
+
+.capital {
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+
+.Creat {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.Creat::after {
+    width: 10px;
+    height: 10px;
+    right: 220px;
+    bottom: 5px;
+}
+
+
+p{
+    margin: 10px 0px;
+}
+
+
+a {
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+.opacity {
+    opacity: .7;
+
+}
+
+
+.bottom {
+    position: absolute;
+    top: 145px;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+input {
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: 0px;
+    margin-bottom: 15px;
+    background-color: #9e556e;
+    outline: 0;
+    color: #fff;
+}
+
+
+.First {
+    width: calc(95% /2);
+}
+
+.button {
+    width: calc(98% /2);
+    height: 50;
+    display: flex;
+    border: 0px;
+    height: 50px;
+    border-radius:35px;
+    font-weight: bold;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.llogo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+
+.smallimg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+
+label {
+    position: absolute;
+    opacity: 0.6;
+    font-size: 10px;
+    cursor: text;
+}
+
+
+input:focus {
+    outline: 1px solid #172542;
+}
+
+
+.Fname {
+    top: 2%;
+    left: 5%;
+}
+
+
+.Fimg {
+    top: 5%;
+    left: 38%;
+}
+
+
+.Lname {
+    top: 2%;
+    left: 57%;
+}
+
+
+.Simg {
+    top: 5%;
+    right: 2.8%;
+}
+
+
+.Email {
+    top: 29%;
+    left: 5%;
+}
+
+.Mailimg {
+    top: 31%;
+    right: 2.8%;
+}
+
+
+.Pass {
+    top: 57%;
+    left: 5%;
+}
+
+
+.eyeimg {
+    top: 58%;
+    right: 2.8%;
+}
